@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='container' style={{ height: '551px' }}>
-            <h4 style={{ textAlign: 'center' }}>About Me</h4>
+        <div className='container' style={{ height: '570px' }}>
+            <h4 style={{ textAlign: 'center', paddingTop: '8px' }}>About Me</h4>
             <div style={{ paddingTop: '10px', textAlign: 'justify' }}>
                 <p>Hello, My name is Md. Abu Raihan. I have completed my graduation from Stamford University Bangladesh.
                     I am a full stack web developer. I have completed full stack web development (mern) from Bhubrihi. This an
