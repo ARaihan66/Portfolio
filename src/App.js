@@ -1,3 +1,4 @@
+import React, { Fragment } from 'react';
 import './App.css';
 import Navbar from './Component/Navbar.js';
 import Home from './Component/Home.js';
@@ -5,16 +6,20 @@ import About from './Component/About.js';
 import Skills from './Component/Skills.js';
 import Services from './Component/Services';
 import Contact from './Component/Contact';
+import Project from './Component/Projects';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Contact />
+      <Fragment>
+        <Navbar />
+        <Home />
+        <About />
+        <Skills />
+        <Services />
+        <Project />
+        <Contact />
+      </Fragment>
     </div>
   );
 }
