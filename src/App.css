@@ -8,40 +8,22 @@
     width: auto;
 }
 
-.nlink {
-    color: aquamarine;
+.icon {
+    font-size: 35px;
+    margin: 10px;
+}
+
+.icon:hover {
+    color: whitesmoke;
 }
 
 .nlink:hover {
-    color: darkseagreen;
+    text-decoration: underline;
 }
 
-.mainInfo {
-    height: 613px;
-}
-
-
-.link {
-    padding: 15px;
-    font-size: 30px;
-    color: white;
-}
-
-.link:hover {
-    color: blue;
-}
-
-.mainBground {
-    padding-left: 90px;
-    position: relative;
-    z-index: 1;
-}
-
-.bground {
-    position: absolute;
-    width: 340px;
-    height: 420px;
-    background-color: gray;
-    z-index: -1;
-    top: 140px;
+.card {
+    margin: 30px;
+    text-align: center;
+    box-shadow: 6px 6px 6px gray;
+    height: 400px;
 }
