@@ -1,5 +1,6 @@
 import React from 'react';
 import background from '../Assets/background.jpg';
+import Download from './Download';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
                     <p style={{ letterSpacing: '3px', backgroundColor: 'blue', display: 'inline' }}>HAY THERE</p>
                     <h1>I'M  ABU RAIHAN</h1>
                     <p style={{ letterSpacing: '4px', lineHeight: '15px', backgroundColor: 'blue', display: 'inline', fontSize: '20px' }}>A FULL STACK WEB DEVELOPER</p>
+                    <div style={{ marginTop: '4px' }}><Download /></div>
                     <div>
                         <span ><a href='' className='icon' ><i class="fa-brands fa-facebook"></i></a></span>
                         <span ><a href='' className='icon'><i class="fa-brands fa-github" ></i></a></span>
