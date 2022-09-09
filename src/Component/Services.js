@@ -7,8 +7,8 @@ import BackEnd from '../BackEnd.png';
 const Services = () => {
     return (
         <section id="services">
-            <div style={{ height: '610px' }}>
-                <h2 style={{ marginTop: '50px', textAlign: 'center' }}>My Services</h2>
+            <div style={{ height: '610px' }} className=''>
+                <h2 style={{ textAlign: 'center' }}>My Services</h2>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-4">

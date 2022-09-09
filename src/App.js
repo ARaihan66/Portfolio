@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Component/Navbar.js';
 import Home from './Component/Home.js';
@@ -11,15 +12,16 @@ import Project from './Component/Projects';
 const App = () => {
   return (
     <div className="App">
-      <Fragment>
-        <Navbar />
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Project />
-        <Contact />
-      </Fragment>
+      <Navbar />
+
+      <Routes>
+        <Route path='/home' element={<Home />} />
+        <Route path='/about' element={<Home />} />
+        <Route path='/skills' element={<Home />} />
+        <Route path='/services' element={<Home />} />
+        <Route path='/contact' element={<Home />} />
+        <Route path='/project' element={<Home />} />
+      </Routes>
     </div>
   );
 }
