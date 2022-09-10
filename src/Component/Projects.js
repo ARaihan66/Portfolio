@@ -10,7 +10,7 @@ const Project = () => {
         <div className="container">
             <h4 style={{ textAlign: 'center' }}>MY PROJECTS</h4>
             <div className="row">
-                <div className="col-lg-4" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
+                <div className="col-lg-4 text-center" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
                     <Card
                         style={{
                             width: '18rem',
@@ -41,7 +41,7 @@ const Project = () => {
                     </Card>
                 </div>
 
-                <div className="col-lg-4" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
+                <div className="col-lg-4 text-center" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
                     <Card
                         style={{
                             width: '18rem',
@@ -72,7 +72,7 @@ const Project = () => {
                     </Card>
                 </div>
 
-                <div className="col-lg-4" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
+                <div className="col-lg-4 text-center" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
                     <Card
                         style={{
                             width: '18rem',

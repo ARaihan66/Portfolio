@@ -1,6 +1,6 @@
 import React from "react";
 import data from '../Assets/data';
-import { Card, CardBody, CardTitle, CardLink, CardText } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardText } from 'reactstrap';
 import FullStack from '../Assets/Picture/FullStack.png';
 import FrontEnd from '../Assets/Picture/FrontEnd.png';
 import BackEnd from '../Assets/Picture/BackEnd.png';
@@ -10,7 +10,7 @@ const Services = () => {
         <div className="container">
             <h4 style={{ textAlign: 'center' }}>MY SERVICES</h4>
             <div className="row">
-                <div className="col-lg-4" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
+                <div className="col-lg-4 text-center" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
                     <Card
                         style={{
                             width: '18rem',
@@ -35,7 +35,7 @@ const Services = () => {
                     </Card>
                 </div>
 
-                <div className="col-lg-4" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
+                <div className="col-lg-4 text-center" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
                     <Card
                         style={{
                             width: '18rem',
@@ -61,7 +61,7 @@ const Services = () => {
                     </Card>
                 </div>
 
-                <div className="col-lg-4" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
+                <div className="col-lg-4 text-center" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
                     <Card
                         style={{
                             width: '18rem',
