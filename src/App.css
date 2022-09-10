@@ -21,13 +21,16 @@
     text-decoration: underline;
 }
 
-.card {
-    margin: 30px;
-    text-align: center;
-    box-shadow: 6px 6px 6px gray;
-    height: 400px;
-}
-
 .carousel {
     text-align: center;
+}
+
+.footer-icon {
+    color: blue;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.footer-icon:hover {
+    color: white;
 }

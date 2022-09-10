@@ -9,7 +9,7 @@ import clientFive from '../Assets/Picture/man5.jpg';
 
 function Testimonial() {
     return (
-        <div style={{ backgroundColor: 'gray' }}>
+        <div style={{ backgroundColor: 'pink' }}>
             <h2 style={{ textAlign: 'center', paddingTop: '20px' }}>PEOPLE SAYS</h2>
             <Carousel>
                 <Carousel.Item className='carousel' style={{ height: '570px' }}>

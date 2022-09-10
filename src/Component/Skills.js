@@ -4,7 +4,7 @@ import mySelf from "../Assets/data";
 
 const Skills = () => {
     return (
-        <div style={{ height: '570px' }}>
+        <div style={{ minHeight: '570px' }}>
             <section id="skills">
                 <h2 style={{ marginTop: '20px', textAlign: 'center' }}>SKILLS</h2>
                 <div className="container">

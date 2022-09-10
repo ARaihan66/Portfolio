@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div style={{ background: 'gray', height: '570px' }}>
+        <div style={{ background: 'gray' }}>
             <section id="contact" className="contact">
                 <div className="container">
 
                     <div className="section-title">
-                        <h2 style={{ textAlign: 'center' }}>CONTACT ME</h2>
+                        <h2 style={{ textAlign: 'center', paddingTop: '5px' }}>CONTACT ME</h2>
                     </div>
 
                     <div className="row mt-2">
@@ -15,7 +15,7 @@ const Contact = () => {
                         <div className="col-md-6 d-flex align-items-stretch">
                             <div className="info-box">
                                 <i className="bx bx-map"></i>
-                                <h3>My Address</h3>
+                                <h5>My Address</h5>
                                 <p>421/1 Malibagh, Dhaka, Bangladesh</p>
                             </div>
                         </div>
@@ -23,13 +23,13 @@ const Contact = () => {
                         <div className="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
                             <div className="info-box">
                                 <i className="bx bx-share-alt"></i>
-                                <h3>Social Profiles</h3>
+                                <h5>Social Profiles</h5>
                                 <div className="social-links">
-                                    <a href="#" className="twitter icon"><i className="bi bi-twitter"></i></a>
-                                    <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-                                    <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-                                    <a href="#" className="google-plus"><i className="bi bi-skype"></i></a>
-                                    <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+                                    <a href="#" className="twitter footer-icon"><i className="bi bi-twitter"></i></a>
+                                    <a href="#" className="facebook footer-icon"><i className="bi bi-facebook"></i></a>
+                                    <a href="#" className="instagram footer-icon"><i className="bi bi-instagram"></i></a>
+                                    <a href="#" className="google-plus footer-icon"><i className="bi bi-skype"></i></a>
+                                    <a href="#" className="linkedin footer-icon"><i className="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -37,14 +37,14 @@ const Contact = () => {
                         <div className="col-md-6 mt-4 d-flex align-items-stretch">
                             <div className="info-box">
                                 <i className="bx bx-envelope"></i>
-                                <h3>Email Me</h3>
+                                <h5>Email Me</h5>
                                 <p>md.abu.raihan7793@gmail.com</p>
                             </div>
                         </div>
                         <div className="col-md-6 mt-4 d-flex align-items-stretch">
                             <div className="info-box">
                                 <i className="bx bx-phone-call"></i>
-                                <h3>Call Me</h3>
+                                <h5>Call Me</h5>
                                 <p>+88 01767013859</p>
                             </div>
                         </div>
@@ -66,9 +66,11 @@ const Contact = () => {
                             <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                         </div>
 
-                        <div className="text-center"><button type="submit">Send Message</button></div>
+                        <div className="text-center" style={{ marginTop: '5px' }}><button type="submit" className="btn btn-info btn-outline-light">Submit</button></div>
                     </form>
-
+                </div>
+                <div style={{ background: 'black', color: 'white', textAlign: 'center', marginTop: '5px', height: '35px' }}>
+                    © 2022 Copyright: Abu Raihan
                 </div>
             </section>
         </div >

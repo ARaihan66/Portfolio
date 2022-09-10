@@ -4,7 +4,7 @@ const About = () => {
     return (
 
         <section id='about'>
-            <div className='container' style={{ height: '570px' }}>
+            <div className='container'>
                 <h4 style={{ textAlign: 'center', paddingTop: '8px' }}>ABOUT ME</h4>
                 <div style={{ paddingTop: '10px', textAlign: 'justify' }}>
                     <p>Hello, My name is Md. Abu Raihan. I am from Naogaon, Rajshahi. I have completed my graduation from
