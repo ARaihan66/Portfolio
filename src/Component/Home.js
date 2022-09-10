@@ -1,12 +1,12 @@
 import React from 'react';
-import background from '../Assets/background.jpg';
+import background from '../Assets/Picture/background.jpg';
 import Download from './Download';
 
 const Home = () => {
     return (
 
         <section id='home'>
-            <div style={{ backgroundImage: `url(${background})`, height: '610px', maxWidth: '1380px', marginTop: '55px', backgroundRepeat: 'no-repeat' }}>
+            <div style={{ backgroundImage: `url(${background})`, height: '600px', maxWidth: '1380px', backgroundRepeat: 'no-repeat' }}>
                 <div style={{ paddingTop: '180px', textAlign: 'center', color: 'white' }}>
                     <p style={{ letterSpacing: '3px', backgroundColor: 'blue', display: 'inline' }}>HAY THERE</p>
                     <h1>I'M  ABU RAIHAN</h1>

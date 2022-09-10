@@ -1,15 +1,15 @@
 import React from "react";
 import data from '../Assets/data.js';
-import Hungry from '../Hungry.png';
-import Ecommerce from '../Ecommerce.png';
-import Burger from '../Burger.png';
+import Hungry from '../Assets/Picture/Hungry.png';
+import Ecommerce from '../Assets/Picture/Ecommerce.png';
+import Burger from '../Assets/Picture/Burger.png';
 
 const Project = () => {
     return (
-        <div>
+        <div style={{ background: '' }}>
             <section id="projects">
                 <div style={{ height: '610px' }}>
-                    <h2 style={{ marginTop: '10px', textAlign: 'center' }}>My Projects</h2>
+                    <h2 style={{ marginTop: '10px', textAlign: 'center' }}>MY PROJECTS</h2>
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-4">

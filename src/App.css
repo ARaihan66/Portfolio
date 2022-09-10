@@ -27,3 +27,7 @@
     box-shadow: 6px 6px 6px gray;
     height: 400px;
 }
+
+.carousel {
+    text-align: center;
+}

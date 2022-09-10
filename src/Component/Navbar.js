@@ -1,49 +1,27 @@
-import React from 'react';
-import Logo from '../Logo.png';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Navbar = () => {
+function Navigation() {
     return (
-
-        <div>
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-                <div className="container-fluid col-lg-4">
-                    <a className="navbar-brand" href="#">
-                        <img src={Logo} style={{ height: '50px' }} />
-                        <span style={{ fontSize: '25px', fontWeight: 'bolder' }}> Abu Raihan</span>
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div className="col-lg-8">
-                    <ul className="navbar-nav justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
-                        <li className="nav-item">
-                            <a className="nav-link nlink" href="#home">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link nlink" href="#about">About</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link nlink" href="#skills">Skills</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link nlink" href="#services">Services</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link nlink" href="#projects">Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link nlink" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-        </div>
-
-    )
+        <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+            <Container>
+                <Navbar.Brand href="/">Abu Raihan</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="/"></Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/skills">Skills</Nav.Link>
+                        <Nav.Link href="/services">Services</Nav.Link>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
+                        <Nav.Link href="/contact">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+    );
 }
 
-export default Navbar;
-
+export default Navigation;

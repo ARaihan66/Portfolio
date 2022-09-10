@@ -5,7 +5,7 @@ const About = () => {
 
         <section id='about'>
             <div className='container' style={{ height: '610px' }}>
-                <h4 style={{ textAlign: 'center', paddingTop: '8px' }}>About Me</h4>
+                <h4 style={{ textAlign: 'center', paddingTop: '8px' }}>ABOUT ME</h4>
                 <div style={{ paddingTop: '10px', textAlign: 'justify' }}>
                     <p>Hello, My name is Md. Abu Raihan. I am from Naogaon, Rajshahi. I have completed my graduation from
                         Stamford University Bangladesh. -I am a full stack web developer. I have completed full stack web development

@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div>
+        <div style={{ background: 'gray' }}>
             <section id="contact" className="contact">
                 <div className="container">
 
                     <div className="section-title">
-                        <h2>Contact</h2>
+                        <h2 style={{ textAlign: 'center' }}>CONTACT ME</h2>
                         <p>Contact Me</p>
                     </div>
 

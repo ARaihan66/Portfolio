@@ -1,14 +1,14 @@
 import React from "react";
 import data from '../Assets/data';
-import FullStack from '../FullStack.png';
-import FrontEnd from '../FrontEnd.png';
-import BackEnd from '../BackEnd.png';
+import FullStack from '../Assets/Picture/FullStack.png';
+import FrontEnd from '../Assets/Picture/FrontEnd.png';
+import BackEnd from '../Assets/Picture/BackEnd.png';
 
 const Services = () => {
     return (
         <section id="services">
             <div style={{ height: '610px' }} className=''>
-                <h2 style={{ textAlign: 'center' }}>My Services</h2>
+                <h2 style={{ textAlign: 'center' }}>MY SERVICES</h2>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-4">
