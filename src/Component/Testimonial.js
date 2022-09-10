@@ -12,28 +12,28 @@ function Testimonial() {
         <div style={{ backgroundColor: 'gray' }}>
             <h2 style={{ textAlign: 'center', paddingTop: '20px' }}>PEOPLE SAYS</h2>
             <Carousel>
-                <Carousel.Item className='carousel' style={{ height: '525px' }}>
+                <Carousel.Item className='carousel' style={{ height: '570px' }}>
                     <img
                         src={clientOne}
-                        alt="First slide"
+                        alt="Third slide"
                         className="rounded-circle mb-4"
                         style={{ width: "150px" }}
                     />
                     <div className='container' style={{ textAlign: 'justify' }}>
-                        <h3 style={{ textAlign: 'center' }}>Mr. Smith</h3>
-                        <p>{data.clientOpinion[0]}</p>
+                        <h3 style={{ textAlign: 'center' }}>Robert Pitter</h3>
+                        <p style={{ paddingLeft: '120px', paddingRight: '120px', paddingTop: '30px' }}>{data.clientOpinion[0]}</p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item className='carousel' style={{ height: '570px' }}>
                     <img
                         src={clientTwo}
-                        alt="Second slide"
+                        alt="Third slide"
                         className="rounded-circle mb-4"
                         style={{ width: "150px" }}
                     />
                     <div className='container' style={{ textAlign: 'justify' }}>
-                        <h3 style={{ textAlign: 'center' }}>John Deo</h3>
-                        <p>{data.clientOpinion[0]}</p>
+                        <h3 style={{ textAlign: 'center' }}>Robert Pitter</h3>
+                        <p style={{ paddingLeft: '120px', paddingRight: '120px', paddingTop: '30px' }}>{data.clientOpinion[0]}</p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item className='carousel' style={{ height: '570px' }}>
@@ -44,8 +44,8 @@ function Testimonial() {
                         style={{ width: "150px" }}
                     />
                     <div className='container' style={{ textAlign: 'justify' }}>
-                        <h3 style={{ textAlign: 'center' }}>Robert Downy</h3>
-                        <p>{data.clientOpinion[0]}</p>
+                        <h3 style={{ textAlign: 'center' }}>Robert Pitter</h3>
+                        <p style={{ paddingLeft: '120px', paddingRight: '120px', paddingTop: '30px' }}>{data.clientOpinion[0]}</p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item className='carousel' style={{ height: '570px' }}>
@@ -56,8 +56,8 @@ function Testimonial() {
                         style={{ width: "150px" }}
                     />
                     <div className='container' style={{ textAlign: 'justify' }}>
-                        <h3 style={{ textAlign: 'center' }}>James Browny</h3>
-                        <p>{data.clientOpinion[0]}</p>
+                        <h3 style={{ textAlign: 'center' }}>Robert Pitter</h3>
+                        <p style={{ paddingLeft: '120px', paddingRight: '120px', paddingTop: '30px' }}>{data.clientOpinion[0]}</p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item className='carousel' style={{ height: '570px' }}>

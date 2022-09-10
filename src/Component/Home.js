@@ -6,7 +6,7 @@ const Home = () => {
     return (
 
         <section id='home'>
-            <div style={{ backgroundImage: `url(${background})`, height: '600px', maxWidth: '1380px', backgroundRepeat: 'no-repeat' }}>
+            <div style={{ backgroundImage: `url(${background})`, height: '570px', maxWidth: '1380px', backgroundRepeat: 'no-repeat' }}>
                 <div style={{ paddingTop: '180px', textAlign: 'center', color: 'white' }}>
                     <p style={{ letterSpacing: '3px', backgroundColor: 'blue', display: 'inline' }}>HAY THERE</p>
                     <h1>I'M  ABU RAIHAN</h1>

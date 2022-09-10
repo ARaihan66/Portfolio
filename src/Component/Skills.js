@@ -4,9 +4,9 @@ import mySelf from "../Assets/data";
 
 const Skills = () => {
     return (
-        <div style={{ height: '610px' }}>
+        <div style={{ height: '570px' }}>
             <section id="skills">
-                <h2 style={{ marginTop: '50px', textAlign: 'center' }}>SKILLS</h2>
+                <h2 style={{ marginTop: '20px', textAlign: 'center' }}>SKILLS</h2>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">

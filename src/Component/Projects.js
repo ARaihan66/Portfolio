@@ -8,7 +8,7 @@ const Project = () => {
     return (
         <div style={{ background: '' }}>
             <section id="projects">
-                <div style={{ height: '610px' }}>
+                <div style={{ height: '570px' }}>
                     <h2 style={{ marginTop: '10px', textAlign: 'center' }}>MY PROJECTS</h2>
                     <div className="container-fluid">
                         <div className="row">

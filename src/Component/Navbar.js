@@ -16,7 +16,6 @@ function Navigation() {
                         <Nav.Link href="/skills">Skills</Nav.Link>
                         <Nav.Link href="/services">Services</Nav.Link>
                         <Nav.Link href="/projects">Projects</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -2,13 +2,12 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div style={{ background: 'gray' }}>
+        <div style={{ background: 'gray', height: '570px' }}>
             <section id="contact" className="contact">
                 <div className="container">
 
                     <div className="section-title">
                         <h2 style={{ textAlign: 'center' }}>CONTACT ME</h2>
-                        <p>Contact Me</p>
                     </div>
 
                     <div className="row mt-2">
@@ -26,7 +25,7 @@ const Contact = () => {
                                 <i className="bx bx-share-alt"></i>
                                 <h3>Social Profiles</h3>
                                 <div className="social-links">
-                                    <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
+                                    <a href="#" className="twitter icon"><i className="bi bi-twitter"></i></a>
                                     <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
                                     <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
                                     <a href="#" className="google-plus"><i className="bi bi-skype"></i></a>

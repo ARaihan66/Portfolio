@@ -7,7 +7,7 @@ import BackEnd from '../Assets/Picture/BackEnd.png';
 const Services = () => {
     return (
         <section id="services">
-            <div style={{ height: '610px' }} className=''>
+            <div style={{ height: '570px' }} className=''>
                 <h2 style={{ textAlign: 'center' }}>MY SERVICES</h2>
                 <div className="container-fluid">
                     <div className="row">
