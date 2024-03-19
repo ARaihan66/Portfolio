@@ -6,6 +6,13 @@ import { RxCross2 } from "react-icons/rx";
 const Navbar = () => {
   const [menuItem, setMenuItem] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scrolling behavior
+    });
+  };
+
   return (
     <>
       <nav className="flex items-center justify-between relative my-5 md:m-10 z-2 text-white">
@@ -148,11 +155,11 @@ const Navbar = () => {
           </div>
         )}
       </nav>
-      <div className="fixed py-5 px-10 flex justify-between items-center bg-orange-500 z-10 bottom-2 left-[15%] md:left-[38%] rounded-3xl">
+      <div className="fixed py-5 px-10 flex justify-between items-center bg-orange-500 z-50 bottom-2 left-[15%] md:left-[38%] rounded-3xl">
         <div>
           <a
-            href="/"
-            className="px-5 py-2 font-bold text-l no-underline md:px-10 md:py-5 hover:text-white"
+            onClick={scrollToTop}
+            className="px-5 py-2 font-bold text-l cursor-pointer no-underline md:px-10 md:py-5 bg-orange-500 hover:text-white"
           >
             Home
           </a>
@@ -160,7 +167,7 @@ const Navbar = () => {
         <div>
           <a
             href="/"
-            className=" px-5 py-2 font-bold text-l no-underline md:px-10 md:py-5 hover:text-white"
+            className=" px-5 py-2 font-semibold text-l no-underline md:px-10 md:py-5 hover:text-white"
           >
             Contact Me
           </a>
