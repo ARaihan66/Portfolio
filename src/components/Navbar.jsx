@@ -44,11 +44,11 @@ const Navbar = () => {
                 Education
               </a>
             </div>
-            <div>
+            {/*<div>
               <a href="#experience" className="no-underline text-white">
                 Experience
               </a>
-            </div>
+            </div>*/}
             <div>
               <a href="#skills" className="no-underline text-white">
                 Skills
@@ -98,7 +98,7 @@ const Navbar = () => {
                     Education
                   </a>
                 </div>
-                <div>
+                {/*<div>
                   <a
                     href="#experience"
                     onClick={() => setMenuItem(!menuItem)}
@@ -106,7 +106,7 @@ const Navbar = () => {
                   >
                     Experience
                   </a>
-                </div>
+                </div>*/}
                 <div>
                   <a
                     href="#skills"

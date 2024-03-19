@@ -46,7 +46,7 @@ const Skills = () => {
         </div>
         <div className="basis-1/2">
           <h2 className="uppercase text-center my-5  text-white">Experience</h2>
-          <div className="flex flex-col gap-3 bg-gray-500 py-5 px-10 mx-10 rounded-3xl text-justify font-semibold">
+          <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 md:mx-10 rounded-3xl text-justify font-semibold">
             <p>Firm Name: Innovatine IT</p>
             <p>Duration: 8 months</p>
             <p>
