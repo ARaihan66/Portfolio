@@ -49,7 +49,7 @@ const Education = () => {
   ];
 
   return (
-    <section className="mx-5 md:mx-20">
+    <section id="education" className="mx-5 md:mx-20">
       <h2 className="uppercase text-center my-5 md:my-10  text-white">
         Education Background
       </h2>

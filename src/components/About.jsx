@@ -31,7 +31,7 @@ const About = () => {
   };
   return (
     <section id="about">
-      <h1 className="uppercase text-center md:my-20 text-white">About Me</h1>
+      <h1 className="uppercase text-center md:my-10 text-white">About Me</h1>
       <div className="flex flex-col my-10 md:flex-row">
         <div className="basis-1/2 flex justify-center items-center">
           <div className=" w-[300px] my-10 md:w-[500px]">
