@@ -148,7 +148,7 @@ const Navbar = () => {
           </div>
         )}
       </nav>
-      <div className="fixed py-5 px-10 flex justify-between items-center bg-orange-500  bottom-2 left-[15%] md:left-[38%] rounded-3xl">
+      <div className="fixed py-5 px-10 flex justify-between items-center bg-orange-500 z-10 bottom-2 left-[15%] md:left-[38%] rounded-3xl">
         <div>
           <a
             href="/"
@@ -158,7 +158,10 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <a href="/" className=" px-5 py-2 font-bold text-l no-underline md:px-10 md:py-5 hover:text-white">
+          <a
+            href="/"
+            className=" px-5 py-2 font-bold text-l no-underline md:px-10 md:py-5 hover:text-white"
+          >
             Contact Me
           </a>
         </div>
