@@ -19,7 +19,7 @@ const Hero = () => {
             <div className="my-10 flex md:max-justify-between gap-10">
                 <a
                   href="#contact"
-                  className="no-underline font-bold text-sm md:text-l text-white bg-orange-900 rounded-lg p-5 outline-none hover:bg-white hover:text-orange-700"
+                  className="no-underline font-bold text-sm md:text-l text-white bg-orange-900 rounded-lg p-2 md:p-5 outline-none hover:bg-white hover:text-orange-700"
                 >
                   Contact Me
                 </a>
@@ -28,7 +28,7 @@ const Hero = () => {
                   href={resume}
                   download="Abu_Raihan"
                   className="no-underline text-sm md:text-l font-bold text-white bg-orange-900
-                rounded-lg cursor-pointer p-5 outline-none hover:bg-white
+                rounded-lg cursor-pointer p-2 md:p-5 outline-none hover:bg-white
                 hover:text-orange-700"
                 >
                   Download Resume

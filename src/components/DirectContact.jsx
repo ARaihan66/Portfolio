@@ -28,12 +28,12 @@ const DirectContact = () => {
   };
   return (
     <div className="">
-      <div className="fixed bottom-16 md:bottom-2 left-2 w-[60px] h-[60px] z-50">
+      <div className="fixed bottom-24 md:bottom-2 left-2 w-[80px] h-[80px] z-50">
         <a href={whatsappLink} target="_blank">
           <Lottie options={whatsAppSendMessage} />
         </a>
       </div>
-      <div className="fixed bottom-16 md:bottom-2 right-2 w-[50px] h-[50px] z-50 md:hidden">
+      <div className="fixed bottom-24 md:bottom-2 right-2 w-[85px] h-[85px] z-50 md:hidden">
         <a href={`tel:${phoneNumber}`}>
           <Lottie options={phoneSendMessage} />
         </a>

@@ -47,19 +47,24 @@ const Skills = () => {
         <div className="basis-1/2">
           <h2 className="uppercase text-center my-5  text-white">Experience</h2>
           <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 md:mx-10 rounded-3xl text-justify">
-            <p><span className="font-semibold">Firm Name:</span> Innovatine IT</p>
-            <p><span className="font-semibold">Duration:</span> 8 months</p>
             <p>
-            <span className="font-semibold">Experience:</span> Innovative IT has been my workplace, where I
-              contributed to projects like G-Spa, AfterHoursBD, and Fare.com.bd.
-              These projects involved collaborative efforts, where I undertook
-              various roles and responsibilities, honing my skills in React
-              development and project management. Through these experiences,
-              I've gained valuable insights into software development processes
-              and enhanced my problem-solving abilities. Reflecting on my
-              journey at Innovative IT, I'm motivated to pursue further growth
-              in the field, aiming to tackle new challenges and contribute
-              meaningfully to future projects.
+              <span className="font-bold">Firm Name:</span> Innovatine IT
+            </p>
+            <p>
+              <span className="font-bold">Duration:</span> 8 months
+            </p>
+            <p>
+              <span className="font-bold">Experience:</span> Innovative IT has
+              been my workplace, where I contributed to projects like G-Spa,
+              AfterHoursBD, and Fare.com.bd. These projects involved
+              collaborative efforts, where I undertook various roles and
+              responsibilities, honing my skills in React development and
+              project management. Through these experiences, I've gained
+              valuable insights into software development processes and enhanced
+              my problem-solving abilities. Reflecting on my journey at
+              Innovative IT, I'm motivated to pursue further growth in the
+              field, aiming to tackle new challenges and contribute meaningfully
+              to future projects.
             </p>
           </div>
         </div>

@@ -43,14 +43,14 @@ const Contact = () => {
                   <Tab
                     value="message"
                     onClick={() => setType("message")}
-                    className="uppercase text-center font-semibold"
+                    className="uppercase text-center text-sm font-bold md:text-xl"
                   >
                     Send Message
                   </Tab>
                   <Tab
                     value="contact"
                     onClick={() => setType("contact")}
-                    className="uppercase text-center font-semibold"
+                    className="uppercase text-center text-sm font-bold md:text-xl"
                   >
                     Contact me
                   </Tab>

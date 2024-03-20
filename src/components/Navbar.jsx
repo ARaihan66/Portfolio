@@ -155,7 +155,7 @@ const Navbar = () => {
           </div>
         )}
       </nav>
-      <div className="fixed py-5 px-10 flex justify-between items-center bg-orange-500 z-50 bottom-2 left-[15%] md:left-[38%] rounded-3xl">
+      <div className="fixed py-5 px-10 flex justify-between items-center bg-orange-500 z-50 bottom-2 left-[13%] md:left-[38%] rounded-3xl">
         <div>
           <a
             onClick={scrollToTop}

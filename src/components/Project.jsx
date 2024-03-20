@@ -24,7 +24,7 @@ const Project = () => {
       live: "https://fare.com.bd/",
       gitLink: "/git-link",
       imgUrl: fare,
-      details: " ",
+      details: "",
     },
 
     {
@@ -123,8 +123,13 @@ const Project = () => {
                         {project}
                       </Typography>
                       <Typography className="text-black">
-                        <p>Technology: {technology}</p>
-                        <p>Details: {details}</p>
+                        <p>
+                          <span className="font-bold">Technology:</span>{" "}
+                          {technology}
+                        </p>
+                        <p>
+                          <span className="font-bold">Details:</span> {details}
+                        </p>
                       </Typography>
                     </CardBody>
                     <CardFooter className="pt-0 flex gap-3 justify-between">
