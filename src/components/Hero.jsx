@@ -17,15 +17,13 @@ const Hero = () => {
               projects.
             </p>
             <div className="my-10 flex md:max-justify-between gap-10">
-              <div>
                 <a
                   href="#contact"
                   className="no-underline font-bold text-sm md:text-l text-white bg-orange-900 rounded-lg p-5 outline-none hover:bg-white hover:text-orange-700"
                 >
                   Contact Me
                 </a>
-              </div>
-              <div>
+             
                 <a
                   href={resume}
                   download="Abu_Raihan"
@@ -35,7 +33,7 @@ const Hero = () => {
                 >
                   Download Resume
                 </a>
-              </div>
+             
             </div>
             <div></div>
           </div>
