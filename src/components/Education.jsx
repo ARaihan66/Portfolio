@@ -57,7 +57,7 @@ const Education = () => {
         <TabsHeader>
           {data.map(({ label, value }) => (
             <Tab key={value} value={value}>
-              {label}
+              <p className="font-semibold"> {label}</p>
             </Tab>
           ))}
         </TabsHeader>
@@ -68,12 +68,18 @@ const Education = () => {
               value={value}
               className="flex flex-col md:flex-row"
             >
-              <div className="basis-1/2 flex flex-col gap-2 text-justify font-semibold text-black">
-                <p>Institute: {institute}</p>
-                <p>Group: {group}</p>
-                <p>Result: {result}</p>
-                <p>Passing Year: {passYear}</p>
-                <p>Description: {desc}</p>
+              <div className="basis-1/2 flex flex-col gap-2 text-justify  text-black">
+                <p>
+                  <spn className="font-semibold">Institute:</spn> {institute}
+                </p>
+                <p>
+                  <spn className="font-semibold">Group:</spn> {group}
+                </p>
+                <p>
+                  <spn className="font-semibold">Result:</spn> {result}
+                </p>
+                <p><spn className="font-semibold">Passing Year:</spn> {passYear}</p>
+                <p><spn className="font-semibold">Description:</spn> {desc}</p>
               </div>
               <div className="basis-1/2 flex justify-center items-center">
                 <div className="w-[50%] h-[100%] bg-white rounded-full my-5">

@@ -46,11 +46,11 @@ const Skills = () => {
         </div>
         <div className="basis-1/2">
           <h2 className="uppercase text-center my-5  text-white">Experience</h2>
-          <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 md:mx-10 rounded-3xl text-justify font-semibold">
-            <p>Firm Name: Innovatine IT</p>
-            <p>Duration: 8 months</p>
+          <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 md:mx-10 rounded-3xl text-justify">
+            <p><span className="font-semibold">Firm Name:</span> Innovatine IT</p>
+            <p><span className="font-semibold">Duration:</span> 8 months</p>
             <p>
-              Experience: Innovative IT has been my workplace, where I
+            <span className="font-semibold">Experience:</span> Innovative IT has been my workplace, where I
               contributed to projects like G-Spa, AfterHoursBD, and Fare.com.bd.
               These projects involved collaborative efforts, where I undertook
               various roles and responsibilities, honing my skills in React

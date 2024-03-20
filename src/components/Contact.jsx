@@ -28,17 +28,17 @@ const Contact = () => {
       <h2 className="uppercase text-center my-5 md:my-10  text-white">
         Contact
       </h2>
-      <div className="flex flex-wrap flex-col justify-center bgBlue p-5 md:flex-row md:p-15">
+      <div className="flex flex-wrap flex-col justify-center items-center bgBlue p-5 md:flex-row md:p-15">
         <div className=" basis-1/2 flex justify-center items-center">
-          <div className="w-[400px] h-[400px] md:w-[px] md:h-[500px] p-10 md:mt-10 lg:mt-0  lg:ml-20 ">
+          <div className="w-[400px] h-[400px] md:w-[500px] md:h-[500px] p-10 md:mt-10 lg:mt-0  lg:ml-20 ">
             <Lottie options={defaultSendMessage} />
           </div>
         </div>
 
         <div className="basis-1/2">
-          <Card className=" bg-indigo-900   md:w-full">
+          <Card className=" w-[350px] bg-indigo-900 md:w-full">
             <CardBody>
-              <Tabs value={type} className="overflow-visible">
+              <Tabs value={type} className="overflow-hidden">
                 <TabsHeader className="relative z-0 ">
                   <Tab
                     value="message"
@@ -56,7 +56,7 @@ const Contact = () => {
                   </Tab>
                 </TabsHeader>
                 <TabsBody
-                  className="!overflow-x-hidden !overflow-y-visible"
+                  //  className="!overflow-x-hidden !overflow-y-visible"
                   animate={{
                     initial: {
                       x: type === "message" ? 400 : -400,
