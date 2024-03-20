@@ -159,7 +159,7 @@ const Navbar = () => {
         <div>
           <a
             onClick={scrollToTop}
-            className="px-5 py-2 font-bold text-l cursor-pointer no-underline md:px-10 md:py-5 bg-orange-500 hover:text-white"
+            className="px-5 py-2 font-semibold text-l cursor-pointer no-underline md:px-10 md:py-5  hover:text-white"
           >
             Home
           </a>
@@ -167,7 +167,7 @@ const Navbar = () => {
         <div>
           <a
             href="/"
-            className=" px-5 py-2 font-semibold text-l no-underline md:px-10 md:py-5 hover:text-white"
+            className=" px-5 py-2 font-semibold text-l no-underline md:px-10 md:py-5 text-black hover:text-white"
           >
             Contact Me
           </a>

@@ -16,7 +16,7 @@ const Hero = () => {
               ExpressJS MongoDB. I have worked with several production lavel
               projects.
             </p>
-            <div className="my-10 flex justify-between gap-5">
+            <div className="my-10 flex md:max-justify-between gap-10">
               <a
                 href="#contact"
                 className="no-underline font-bold text-sm md:text-l text-white bg-orange-900 rounded-lg p-5 outline-none hover:bg-white hover:text-orange-700"

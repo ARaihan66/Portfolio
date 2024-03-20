@@ -4,13 +4,13 @@ import {
   CardBody,
   CardFooter,
   Typography,
-  Button,
 } from "@material-tailwind/react";
 
 import fare from "../assets/Fare.png";
 import afterhours from "../assets/AfterHours.png";
 import gspa from "../assets/G-spa.png";
-import law from "../assets/Law.png";
+import law_client from "../assets/Law.png";
+import law_admin from "../assets/Law_Admin.png";
 import portfolio from "../assets/portfolio.png";
 import HungryHub from "../assets/HungryHub.png";
 import { Link } from "react-router-dom";
@@ -48,12 +48,22 @@ const Project = () => {
     },
 
     {
-      project: "Law Firm",
+      project: "Law-Firm-Client",
       technology:
         "React, Tailwind CSS,Redux Toolkit, React-Router-Dom, React Hook, Lottiefile, Flaticon, React Icon, Express Js, Mongodb",
-      live: "",
-      gitLink: "",
-      imgUrl: law,
+      live: "https://law-client-taupe.vercel.app/",
+      gitLink: "/not-available-link",
+      imgUrl: law_client,
+      details: " ",
+    },
+
+    {
+      project: "Law-Firm-Admin",
+      technology:
+        "React, Tailwind CSS,Redux Toolkit, React-Router-Dom, React Hook, Lottiefile, Flaticon, React Icon, Express Js, Mongodb",
+      live: "https://law-firm-admin-omega.vercel.app/",
+      gitLink: "/not-available-link",
+      imgUrl: law_admin,
       details: " ",
     },
 
@@ -61,8 +71,8 @@ const Project = () => {
       project: "Portfolio",
       technology:
         "React, Tailwind CSS, React Hook, React-Router-Dom, Lottiefile, Flaticon, React Icon",
-      live: "",
-      gitLink: "",
+      live: "https://portfolio-virid-five-83.vercel.app/",
+      gitLink: "https://github.com/ARaihan66/Portfolio",
       imgUrl: portfolio,
       details: " ",
     },
@@ -71,8 +81,8 @@ const Project = () => {
       project: "HungryHub",
       technology:
         "React, Tailwind CSS,Redux Toolkit, React-Router-Dom, React Hook, Lottiefile, Flaticon, React Icon",
-      live: "",
-      gitLink: "",
+      live: "https://hungry-hub-mu-sage.vercel.app/",
+      gitLink: "https://github.com/ARaihan66/HungryHub",
       imgUrl: HungryHub,
       details: " ",
     },
@@ -134,6 +144,14 @@ const Project = () => {
                         >
                           GitHub Link
                         </Link>
+                      ) : project === "Law-Firm-Client" ||
+                        project === "Law-Firm-Admin" ? (
+                        <a
+                          href={gitLink}
+                          className="no-underline font-semibold  text-white bg-orange-900 rounded-lg px-5 py-2 outline-none hover:bg-white hover:text-orange-700"
+                        >
+                          GitHub Link
+                        </a>
                       ) : (
                         <a
                           href={gitLink}
