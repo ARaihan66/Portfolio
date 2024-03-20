@@ -29,14 +29,14 @@ const Contact = () => {
         Contact
       </h2>
       <div className="flex flex-wrap flex-col justify-center items-center bgBlue p-5 md:flex-row md:p-15">
-        {/*<div className=" basis-1/2 flex justify-center items-center">
-          <div className="w-[400px] h-[400px] md:w-[500px] md:h-[500px] p-10 md:mt-10 lg:mt-0  lg:ml-20 ">
+        <div className=" basis-1/2 flex justify-center items-center">
+          <div className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] p-10 md:mt-10 lg:mt-0  lg:ml-20 ">
             <Lottie options={defaultSendMessage} />
           </div>
-        </div>*/}
+        </div>
 
         <div className="basis-1/2">
-          <Card className=" w-[350px] bg-indigo-900 md:w-full">
+          <Card className=" w-[330px] bg-indigo-900 md:w-full">
             <CardBody>
               <Tabs value={type} className="overflow-hidden">
                 <TabsHeader className="relative z-0 ">
