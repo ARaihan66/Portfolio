@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../../public/logo4.png";
+import Logo from "../../public/Logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 
@@ -21,7 +21,8 @@ const Navbar = () => {
             href="/"
             className="text-3xl text-white no-underline font-extrabold ml-5"
           >
-            Portfolio
+            {/*Portfolio*/}
+            <img src={Logo} className="h-[50px] w-[100] md:h-[80px] md:w-[300px]"/>
           </a>
         </h1>
         {menuItem ? (
