@@ -36,7 +36,7 @@ const Contact = () => {
         </div>
 
         <div className="basis-1/2">
-          <Card className=" bg-indigo-900 w-[90%]  md:w-full">
+          <Card className=" bg-indigo-900   md:w-full">
             <CardBody>
               <Tabs value={type} className="overflow-visible">
                 <TabsHeader className="relative z-0 ">
