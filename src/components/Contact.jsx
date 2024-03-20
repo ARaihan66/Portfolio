@@ -114,7 +114,11 @@ const Contact = () => {
                       <input
                         type="submit"
                         value="Submit"
-                        onClick={() => window.location.reload()}
+                        onClick={() =>{
+                            setTimeout(()=>{
+                                window.location.reload()
+                            },1000)
+                        }}
                         className="border-none font-bold bg-orange-400 py-5 px-10 outline-none rounded-lg cursor-pointer hover:bg-white"
                       />
                     </form>
