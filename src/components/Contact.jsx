@@ -45,7 +45,7 @@ const Contact = () => {
                     onClick={() => setType("message")}
                     className="uppercase text-center font-semibold"
                   >
-                    Send me a Message
+                    Send Message
                   </Tab>
                   <Tab
                     value="contact"
