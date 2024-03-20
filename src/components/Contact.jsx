@@ -52,7 +52,7 @@ const Contact = () => {
                     onClick={() => setType("contact")}
                     className="uppercase text-center font-semibold"
                   >
-                    Contact with me
+                    Contact me
                   </Tab>
                 </TabsHeader>
                 <TabsBody
