@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Globe from "../file_animation/Globe.json";
+import contact from "../file_animation/Contact.json";
 import Lottie from "react-lottie";
 import facebook from "../assets/facebook.png";
 import linkedin from "../assets/linkedin.png";
@@ -20,7 +20,7 @@ const Contact = () => {
   const defaultSendMessage = {
     loop: true,
     autoplay: true,
-    animationData: Globe,
+    animationData: contact,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -114,10 +114,10 @@ const Contact = () => {
                       <input
                         type="submit"
                         value="Submit"
-                        onClick={() =>{
-                            setTimeout(()=>{
-                                window.location.reload()
-                            },1000)
+                        onClick={() => {
+                          setTimeout(() => {
+                            window.location.reload();
+                          }, 1000);
                         }}
                         className="border-none font-bold bg-orange-400 py-5 px-10 outline-none rounded-lg cursor-pointer hover:bg-white"
                       />
