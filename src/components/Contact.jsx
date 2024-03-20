@@ -97,14 +97,14 @@ const Contact = () => {
                   </TabPanel>
                   <TabPanel value="contact" className="p-0 h-[360px]">
                     <div className="mt-12 text-white">
-                      <h3>Phone No. :</h3>
+                      <h3>Phone No. </h3>
                       <p>01767013859</p>
-                      <h3>Whatsapp No. :</h3>
+                      <h3>Whatsapp No. </h3>
                       <p>01767013859</p>
-                      <h3>Email :</h3>
+                      <h3>Email </h3>
                       <p>md.abu.raihan7793@gmail.com</p>
-                      <h3>Address :</h3>
-                      <p>Mohammadpur, D Block, Dhaka</p>
+                      <h3>Address </h3>
+                      <p>Mohammadpur, D-Block, Dhaka-1214</p>
                       <div className="flex gap-4 my-5">
                         <a
                           href="https://web.facebook.com/abu.raihanshakil.75?_rdc=1&_rdr"
