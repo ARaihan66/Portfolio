@@ -126,9 +126,9 @@ const Contact = () => {
                   <TabPanel value="contact" className="p-0 h-[360px]">
                     <div className="mt-12 text-white">
                       <h3>Phone No. </h3>
-                      <p>01767013859</p>
+                      <p>+8801767013859</p>
                       <h3>Whatsapp No. </h3>
-                      <p>01767013859</p>
+                      <p>+8801767013859</p>
                       <h3>Email </h3>
                       <p>md.abu.raihan7793@gmail.com</p>
                       <h3>Address </h3>

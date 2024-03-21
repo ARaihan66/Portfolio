@@ -48,7 +48,7 @@ const Skills = () => {
           <h2 className="uppercase text-center my-5  text-white">Experience</h2>
           <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 md:mx-10 rounded-3xl text-justify">
             <p>
-              <span className="font-bold">Firm Name:</span> Innovatine IT
+              <span className="font-bold">Firm Name:</span> Innovative IT
             </p>
             <p>
               <span className="font-bold">Duration:</span> 8 months

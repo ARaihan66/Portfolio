@@ -32,6 +32,9 @@ const About = () => {
   return (
     <section id="about">
       <h1 className="uppercase text-center md:my-10 text-white">About Me</h1>
+      <p className="text-white m-5 md:m-10 text-justify">
+      My name is Abu Raihan, and I hold a Bachelor of Science degree in Computer Science and Engineering from Stamford University Bangladesh. With a passion for technology, I specialize in full-stack web development and have gained valuable experience working in the field for about 8 months at a reputable software firm called Innovative IT.In my role, I am responsible for crafting innovative web solutions that meet clients' needs and exceed expectations. Leveraging my expertise in various technologies, I primarily work with React JS for front-end development, Express JS for back-end development, and MongoDB for efficient database management. This combination of technologies empowers me to build robust, responsive, and scalable web applications tailored to diverse requirements.Driven by a commitment to excellence and continuous learning, I actively seek opportunities to enhance my skills and stay updated with the latest industry trends. My goal is to contribute positively to the advancement of web development while delivering exceptional results for my clients and stakeholders.
+      </p>
       <div className="flex flex-col my-10 md:flex-row">
         <div className="basis-1/2 flex justify-center items-center">
           <div className=" w-[300px] my-10 md:w-[500px]">

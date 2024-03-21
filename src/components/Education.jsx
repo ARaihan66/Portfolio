@@ -82,7 +82,7 @@ const Education = () => {
                   <spn className="font-bold">Passing Year:</spn> {passYear}
                 </p>
                 <p>
-                  <spn className="font-bold">Description:</spn> {desc}
+                  <spn className="font-bold">Activities:</spn> {desc}
                 </p>
               </div>
               <div className="basis-1/2 flex justify-center items-center">
