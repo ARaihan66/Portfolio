@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative h-screen">
       <video 
-        className="absolute top-0 left-0 w-full h-[90%] object-cover z-[-1]"
+        className="absolute top-0 left-0 w-full h-[90%] object-cover"
         autoPlay 
         loop 
         muted
@@ -15,7 +15,7 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video>
       
-      <div className="flex flex-col justify-between items-center gap-5 md:flex-row relative z-10  bg-opacity-50 p-5 md:p-10">
+      <div className="flex flex-col justify-between items-center gap-5 md:flex-row relative bg-opacity-50 p-5 md:p-10">
         <div className="mx-5 basis-1/2 md:mx-20">
           <h1 className="text-white font-extrabold text-3xl my-5">
             Hi, I am Abu Raihan

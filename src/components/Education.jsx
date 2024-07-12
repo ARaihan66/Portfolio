@@ -41,7 +41,7 @@ const Education = () => {
       label: "GRADUATION",
       value: "graduation",
       institute: "Stamford University Bangladesh",
-      passYear: "2022",
+      passYear: "2023 January",
       group: "Computer Science & Engineering",
       result: "3.84 out of 4.00",
       desc: "Engaged in internships with industry-leading companies, gaining valuable insights and practical experience. Contributed to research projects and academic publications during the course of study.",

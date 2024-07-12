@@ -85,9 +85,9 @@ const Navbar = () => {
         </div>
 
         {menuItem && (
-          <div className="absolute px-5 py-10 top-14 overflow-hidden  md:hidden z-3 bg-blue-900	 w-[100%] h-screen">
+          <div className="absolute px-5 py-10 top-14 overflow-hidden  md:hidden z-3 bg-blue-900 z-10 w-[100%] h-screen">
             <div>
-              <div className=" gap-5 flex flex-col justify-between">
+              <div className="gap-5 flex flex-col justify-between">
                 <div>
                   <a
                     href="#about"
