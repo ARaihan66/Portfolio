@@ -51,7 +51,7 @@ const Project = () => {
       project: "Law-Firm-Client",
       technology:
         "React, Tailwind CSS,Redux Toolkit, React-Router-Dom, React Hook, Lottiefile, Flaticon, React Icon, Express Js, Mongodb",
-      live: "https://law-client-taupe.vercel.app/",
+      live: "http://rasmul.com/",
       gitLink: "/not-available-link",
       imgUrl: law_client,
       details: " ",
@@ -61,7 +61,7 @@ const Project = () => {
       project: "Law-Firm-Admin",
       technology:
         "React, Tailwind CSS,Redux Toolkit, React-Router-Dom, React Hook, Lottiefile, Flaticon, React Icon, Express Js, Mongodb",
-      live: "https://law-firm-admin-omega.vercel.app/",
+      live: "http://admin.rasmul.com/",
       gitLink: "/not-available-link",
       imgUrl: law_admin,
       details: " ",

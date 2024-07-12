@@ -4,6 +4,8 @@ import css from "../assets/css.png";
 import figma from "../assets/figma.png";
 import mongodb from "../assets/mongodb.png";
 import node from "../assets/node.png";
+import tailwind from "../assets/tailwindCss.png";
+import express from "../assets/express.png";
 
 const Skills = () => {
   return (
@@ -24,6 +26,10 @@ const Skills = () => {
                 <h3>CSS</h3>
               </div>
               <div className="flex flex-col gap-2 justify-center items-center">
+                <img src={tailwind} alt="mongodb" />
+                <h3>Tailwind CSS</h3>
+              </div>
+              <div className="flex flex-col gap-2 justify-center items-center">
                 <img src={figma} alt="figma" />
                 <h3>FIGMA</h3>
               </div>
@@ -31,11 +37,15 @@ const Skills = () => {
             <div className="flex gap-10 my-5">
               <div className="flex flex-col gap-2 justify-center items-center">
                 <img src={react} alt="react" />
-                <h3>React</h3>
+                <h3>React JS</h3>
               </div>
               <div className="flex flex-col gap-2 justify-center items-center">
                 <img src={node} alt="node" />
                 <h3>Node JS</h3>
+              </div>
+              <div className="flex flex-col gap-2 justify-center items-center">
+                <img src={express} alt="mongodb" />
+                <h3>Express JS</h3>
               </div>
               <div className="flex flex-col gap-2 justify-center items-center">
                 <img src={mongodb} alt="mongodb" />

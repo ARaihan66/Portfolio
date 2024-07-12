@@ -9,20 +9,20 @@ const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Smooth scrolling behavior
+      behavior: "smooth", 
     });
   };
 
   return (
     <>
-      <nav className="flex items-center justify-between relative my-5 md:m-10 z-2 text-white">
+      <nav className="flex items-center justify-between relative my-5 md:m-5 z-2 text-white">
         <h1>
           <a
             href="/"
             className="text-3xl text-white no-underline font-extrabold ml-5"
           >
-            {/*Portfolio*/}
-            <img src={Logo} className="h-[50px] w-[100] md:h-[80px] md:w-[300px]"/>
+
+            <img src={Logo} className="h-[50px] w-[100] md:h-[50px] md:w-[200px]"/>
           </a>
         </h1>
         {menuItem ? (
