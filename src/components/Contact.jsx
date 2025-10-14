@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import Lottie from "react-lottie";
 import emailjs from "@emailjs/browser";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 import {
   Card,
   CardBody,
@@ -41,7 +41,12 @@ const Contact = () => {
     }
 
     emailjs
-      .sendForm("service_yof2bos", "template_as79n4m", form.current, "795fKXV1nYWFOGoTA")
+      .sendForm(
+        "service_yof2bos",
+        "template_as79n4m",
+        form.current,
+        "795fKXV1nYWFOGoTA"
+      )
       .then(
         () => {
           toast.success("Message submitted successfully.");
@@ -62,7 +67,7 @@ const Contact = () => {
       </h2>
       <div className="flex flex-wrap flex-col justify-center items-center bgBlue p-5 md:flex-row md:p-15">
         <div className="basis-1/2">
-          <Card className="w-[330px] bg-indigo-900 md:w-full">
+          <Card className="w-[300px] bg-indigo-900 md:w-full">
             <CardBody>
               <Tabs value={type} className="overflow-hidden">
                 <TabsHeader className="relative z-0">
@@ -132,11 +137,27 @@ const Contact = () => {
                       <h3>Address</h3>
                       <p>Mohammadpur, D-Block, Dhaka-1214</p>
                       <div className="flex gap-4 my-5">
-                        <a href="https://web.facebook.com/abu.raihanshakil.75?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer">
-                          <img src={facebook} className="w-[40px] h-[40px]" alt="Facebook" />
+                        <a
+                          href="https://web.facebook.com/abu.raihanshakil.75?_rdc=1&_rdr"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            src={facebook}
+                            className="w-[40px] h-[40px]"
+                            alt="Facebook"
+                          />
                         </a>
-                        <a href="https://www.linkedin.com/in/md-abu-raihan-799599230/" target="_blank" rel="noopener noreferrer">
-                          <img src={linkedin} className="w-[40px] h-[40px]" alt="LinkedIn" />
+                        <a
+                          href="https://www.linkedin.com/in/md-abu-raihan-799599230/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            src={linkedin}
+                            className="w-[40px] h-[40px]"
+                            alt="LinkedIn"
+                          />
                         </a>
                       </div>
                     </div>

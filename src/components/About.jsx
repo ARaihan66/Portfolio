@@ -3,6 +3,7 @@ import Lottie from "react-lottie";
 import lottieFile from "../file_animation/About.json";
 import backend from "../file_animation/Backend.json";
 import frontend from "../file_animation/Frontend.json";
+import { motion } from "motion/react";
 
 const About = () => {
   const defaultSendMessage = {
@@ -31,10 +32,20 @@ const About = () => {
   };
   return (
     <section id="about">
-      <h1 className="uppercase text-center md:my-0 text-white pt-10">
+      <motion.h1
+        initial={{ opacity: 0, y: 0 }}
+        animate={{ opacity: 1, y: -10 }}
+        transition={{ duration: 1.5 }}
+        className="uppercase text-center md:my-0 text-white pt-10"
+      >
         About Me
-      </h1>
-      <p className="text-white m-5 md:m-10 text-justify">
+      </motion.h1>
+      <motion.p
+        initial={{ opacity: 0, y: 0 }}
+        animate={{ opacity: 1, x: -10 }}
+        transition={{ duration: 1.5 }}
+        className="text-white m-5 md:m-10 text-justify"
+      >
         My name is Abu Raihan, and I hold a Bachelor of Science degree in
         Computer Science and Engineering from Stamford University Bangladesh. I
         am deeply passionate about technology and have a strong interest in
@@ -66,7 +77,7 @@ const About = () => {
         development. My goal is to make a meaningful impact in the tech industry
         by creating efficient, user-centered solutions and contributing to the
         success of my team and organization.
-      </p>
+      </motion.p>
       <div className="flex flex-col my-10 md:flex-row">
         <div className="basis-1/2 flex justify-center items-center">
           <div className=" w-[300px] my-10 md:w-[500px]">

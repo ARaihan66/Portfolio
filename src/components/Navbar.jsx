@@ -15,11 +15,11 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between font-semibold  text-white sticky top-0 bg-orange-500 py-3 px-10  z-50">
+      <nav className="flex items-center justify-between font-semibold  text-white sticky top-0 bg-orange-500 py-3 md:px-10  z-50">
         <h1>
           <a
             href="/"
-            className="text-3xl text-white no-underline font-extrabold ml-5"
+            className="text-3xl text-white no-underline font-extrabold md:ml-5 ml-3"
           >
             {/* <img
               src={Logo}
@@ -159,18 +159,29 @@ const Navbar = () => {
               </div>
             </div>
             <div>
-              <a
-                href="https://github.com/ARaihan66"
-                target="_blank"
-                className="text-l font-bold no-underline text-white bg-orange-900 rounded-lg p-5 outline-none hover:bg-white hover:text-orange-700"
-              >
-                Github Link
-              </a>
+              <div>
+                <a
+                  href="https://github.com/ARaihan66"
+                  target="_blank"
+                  className=" hidden md:block text-l font-bold no-underline text-white bg-orange-900 rounded-lg px-4 py-2 outline-none hover:bg-white hover:text-orange-700"
+                >
+                  Github
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/aburaihan066/"
+                  target="_blank"
+                  className=" hidden md:block text-l font-bold no-underline text-white bg-orange-900 rounded-lg px-4 py-2 outline-none hover:bg-white hover:text-orange-700"
+                >
+                  LinkedIn
+                </a>
+              </div>
             </div>
           </div>
         )}
       </nav>
-      <div className="fixed py-5 px-10 flex justify-between items-center bg-orange-500 z-50 bottom-2 left-[13%] md:left-[38%] rounded-3xl">
+      <div className="fixed py-5 px-10 flex justify-between items-center bg-orange-500 z-50 bottom-2 left-[10%] md:left-[38%] rounded-3xl md:visible invisible">
         <div>
           <a
             onClick={scrollToTop}

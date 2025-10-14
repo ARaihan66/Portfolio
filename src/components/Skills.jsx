@@ -6,6 +6,7 @@ import mongodb from "../assets/mongodb.png";
 import node from "../assets/node.png";
 import tailwind from "../assets/tailwindCss.png";
 import express from "../assets/express.png";
+import { motion } from "motion/react";
 
 const Skills = () => {
   return (
@@ -15,48 +16,100 @@ const Skills = () => {
           <h2 className="uppercase text-center my-5 md:my-10  text-white">
             Skills
           </h2>
-          <div className="flex flex-col gap-3 justify-center items-center">
+          {/* <div className="flex flex-col gap-3 justify-center items-center text-white">
             <div className="flex gap-10">
-              <div className="flex flex-col gap-2 justify-center items-center">
+              <motion.div
+                initial={{ opacity: 0, y: 0 }}
+                animate={{ opacity: 1, y: 5 }}
+                transition={{ duration: 1.5 }}
+                className="flex flex-col gap-2 justify-center items-center"
+              >
                 <img src={html} alt="html" />
                 <h3>HTML</h3>
-              </div>
-              <div className="flex flex-col gap-2 justify-center items-center">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 0 }}
+                animate={{ opacity: 1, y: 5 }}
+                transition={{ duration: 1.5 }}
+                className="flex flex-col gap-2 justify-center items-center"
+              >
                 <img src={css} alt="css" />
                 <h3>CSS</h3>
-              </div>
-              <div className="flex flex-col gap-2 justify-center items-center">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 0 }}
+                animate={{ opacity: 1, y: 5 }}
+                transition={{ duration: 1.5 }}
+                className="flex flex-col gap-2 justify-center items-center"
+              >
                 <img src={tailwind} alt="mongodb" />
                 <h3>Tailwind CSS</h3>
-              </div>
-              <div className="flex flex-col gap-2 justify-center items-center">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 0 }}
+                animate={{ opacity: 1, y: 5 }}
+                transition={{ duration: 1.5 }}
+                className="flex flex-col gap-2 justify-center items-center"
+              >
                 <img src={figma} alt="figma" />
                 <h3>FIGMA</h3>
-              </div>
+              </motion.div>
             </div>
             <div className="flex gap-10 my-5">
-              <div className="flex flex-col gap-2 justify-center items-center">
+              <motion.div
+                initial={{ opacity: 0, y: 0 }}
+                animate={{ opacity: 1, y: -5 }}
+                transition={{ duration: 1.5 }}
+                className="flex flex-col gap-2 justify-center items-center"
+              >
                 <img src={react} alt="react" />
                 <h3>React JS</h3>
-              </div>
-              <div className="flex flex-col gap-2 justify-center items-center">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 0 }}
+                animate={{ opacity: 1, y: -5 }}
+                transition={{ duration: 1.5 }}
+                className="flex flex-col gap-2 justify-center items-center"
+              >
                 <img src={node} alt="node" />
                 <h3>Node JS</h3>
-              </div>
-              <div className="flex flex-col gap-2 justify-center items-center">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 0 }}
+                animate={{ opacity: 1, y: -5 }}
+                transition={{ duration: 1.5 }}
+                className="flex flex-col gap-2 justify-center items-center"
+              >
                 <img src={express} alt="mongodb" />
                 <h3>Express JS</h3>
-              </div>
-              <div className="flex flex-col gap-2 justify-center items-center">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 0 }}
+                animate={{ opacity: 1, y: -5 }}
+                transition={{ duration: 1.5 }}
+                className="flex flex-col gap-2 justify-center items-center"
+              >
                 <img src={mongodb} alt="mongodb" />
                 <h3>MongoDB</h3>
-              </div>
+              </motion.div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="basis-1/2">
-          <h2 className="uppercase text-center my-5  text-white">Experience</h2>
-          <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 md:mx-10 rounded-3xl text-justify">
+          <motion.h2
+            initial={{ opacity: 0, y: 0 }}
+            animate={{ opacity: 1, y: 5 }}
+            transition={{ duration: 1.5 }}
+            className="uppercase text-center my-5  text-white"
+          >
+            Experience
+          </motion.h2>
+          <motion.div
+            initial={{ opacity: 0, y: 0 }}
+            animate={{ opacity: 1, y: 10 }}
+            transition={{ duration: 1.5 }}
+            className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 md:mx-10 rounded-3xl text-justify"
+          >
             <p>
               <span className="font-bold">Firm Name:</span> Al Fatah Publication
             </p>
@@ -77,9 +130,14 @@ const Skills = () => {
               support and maintenance for the company’s legacy system built with
               ASP.NET Web Forms
             </p>
-          </div>
+          </motion.div>
 
-          <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 mt-10 md:mx-10 rounded-3xl text-justify">
+          <motion.div
+            initial={{ opacity: 0, y: 0 }}
+            animate={{ opacity: 1, y: -10 }}
+            transition={{ duration: 1.5 }}
+            className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 mt-10 md:mx-10 rounded-3xl text-justify"
+          >
             <p>
               <span className="font-bold">Firm Name:</span> Innovative IT
             </p>
@@ -99,7 +157,7 @@ const Skills = () => {
               field, aiming to tackle new challenges and contribute meaningfully
               to future projects.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
