@@ -1,11 +1,12 @@
 import shakil from "../assets/Raihan.png";
 import resume from "../assets/Abu_Raihan_(Resume).pdf";
 import backgroundVideo from "../assets/bgVideo.mp4";
+import { motion } from "motion/react";
 
 const Hero = () => {
   return (
-    <section className="relative h-screen">
-      <video
+    <section className="h-[95%]">
+      {/* <video
         className="absolute top-0 left-0 w-full h-[100%] object-cover"
         autoPlay
         loop
@@ -13,14 +14,24 @@ const Hero = () => {
         src={backgroundVideo}
       >
         Your browser does not support the video tag.
-      </video>
+      </video> */}
 
-      <div className="flex flex-col justify-between items-center gap-5 md:flex-row relative bg-opacity-50 p-5 md:p-10">
+      <div className="flex flex-col justify-between items-center gap-5 md:flex-row  bg-opacity-50 p-5 md:p-10">
         <div className="mx-5 basis-1/2 md:mx-20">
-          <h1 className="text-white font-extrabold text-3xl my-5">
+          <motion.h1
+            initial={{ opacity: 0, y: 0 }}
+            animate={{ opacity: 1, y: 10 }}
+            transition={{ duration: 1.5 }}
+            className="text-white font-extrabold text-3xl my-5"
+          >
             Hi, I am Abu Raihan
-          </h1>
-          <p className="text-white font-bold text-justify">
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, x: -10 }}
+            transition={{ duration: 1.5 }}
+            className="text-white font-semibold text-justify line-5"
+          >
             I am a creative Frontend Web Developer with over 2 years of hands-on
             experience in building modern, responsive, and efficient web
             applications. My technical expertise includes React.js, Next.js,
@@ -42,30 +53,36 @@ const Hero = () => {
             During this period, I gained valuable experience in React
             development, UI design, and project collaboration, working closely
             with team members to deliver high-quality software solutions.
-          </p>
+          </motion.p>
           <div className="my-10 flex md:justify-between gap-10">
-            <a
+            {/* <a
               href="#contact"
               className="no-underline font-bold text-sm md:text-l text-white bg-orange-900 rounded-lg p-2 md:p-5 outline-none hover:bg-white hover:text-orange-700"
             >
               Contact Me
-            </a>
+            </a> */}
             <a
               href={resume}
               download="Abu_Raihan"
-              className="no-underline text-sm md:text-l font-bold text-white bg-orange-900 rounded-lg cursor-pointer p-2 md:p-5 outline-none hover:bg-white hover:text-orange-700"
+              className="no-underline text-sm md:text-l font-bold text-white bg-orange-900 rounded-lg cursor-pointer p-2 md:p-x-2 outline-none hover:bg-white hover:text-orange-700"
             >
               Download Resume
             </a>
           </div>
         </div>
-        <div className="">
+        <motion.div
+          initial={{ opacity: 0, y: 0 }}
+          animate={{ opacity: 1, y: 10 }}
+          transition={{ duration: 1.5 }}
+          //whileHover={{ scale: 1.1 }}
+          className="p-2 border-20 border-red-500 rounded-full inline-block"
+        >
           <img
             src={shakil}
             alt="Abu Raihan Shakil"
-            className=" rounded-full mb-5 h-[300px] w-[300px] md:h-[400px] md:w-[400px] object-cover border-4 border-white"
+            className="rounded-full h-[300px] w-[300px] md:h-[400px] md:w-[400px] object-cover"
           />
-        </div>
+        </motion.div>
       </div>
     </section>
   );

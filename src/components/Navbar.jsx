@@ -15,16 +15,17 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between relative my-5 md:m-5 z-2 text-white">
+      <nav className="flex items-center justify-between font-semibold  text-white sticky top-0 bg-orange-500 py-3 px-10  z-50">
         <h1>
           <a
             href="/"
             className="text-3xl text-white no-underline font-extrabold ml-5"
           >
-            <img
+            {/* <img
               src={Logo}
               className="h-[50px] w-[100] md:h-[50px] md:w-[200px]"
-            />
+            /> */}
+            PORTFOLIO.
           </a>
         </h1>
         {menuItem ? (

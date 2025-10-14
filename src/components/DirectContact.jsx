@@ -28,7 +28,7 @@ const DirectContact = () => {
   };
   return (
     <div className="">
-      <div className="fixed bottom-24 md:bottom-2 left-2 w-[80px] h-[80px] z-50">
+      <div className="fixed bottom-24 md:bottom-2 left-2 w-[80px] h-[80px] z-50  ">
         <a href={whatsappLink} target="_blank">
           <Lottie options={whatsAppSendMessage} />
         </a>
