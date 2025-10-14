@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative h-screen">
       <video
-        className="absolute top-0 left-0 w-full h-[90%] object-cover"
+        className="absolute top-0 left-0 w-full h-[100%] object-cover"
         autoPlay
         loop
         muted
@@ -59,7 +59,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="basis-1/2 flex flex-col items-center">
+        <div className="">
           <img
             src={shakil}
             alt="Abu Raihan Shakil"

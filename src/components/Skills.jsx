@@ -58,10 +58,33 @@ const Skills = () => {
           <h2 className="uppercase text-center my-5  text-white">Experience</h2>
           <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 md:mx-10 rounded-3xl text-justify">
             <p>
+              <span className="font-bold">Firm Name:</span> Al Fatah Publication
+            </p>
+            <p>
+              <span className="font-bold">Duration:</span> 1 year +
+            </p>
+            <p>
+              <span className="font-bold">Experience:</span> I am currently
+              working as a Frontend Developer at Al Fatah Group (July 2024 –
+              Present), where I am responsible for developing a new ERP
+              (Enterprise Resource Planning) system for the organization. The
+              technology stack includes React.js, Tailwind CSS, and Material UI
+              on the frontend, .NET Core on the backend, and SQL Server as the
+              database. My work focuses on building interactive user interfaces,
+              efficiently managing application state, and integrating RESTful
+              APIs to ensure seamless communication between the frontend and
+              backend. In addition to ERP development, I also provide technical
+              support and maintenance for the company’s legacy system built with
+              ASP.NET Web Forms
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3 bg-gray-500 py-5 px-5 md:px-10 mx-5 mt-10 md:mx-10 rounded-3xl text-justify">
+            <p>
               <span className="font-bold">Firm Name:</span> Innovative IT
             </p>
             <p>
-              <span className="font-bold">Duration:</span> 12 months
+              <span className="font-bold">Duration:</span> 1 year
             </p>
             <p>
               <span className="font-bold">Experience:</span> Innovative IT has
