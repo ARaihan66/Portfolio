@@ -61,7 +61,7 @@ const Skills = () => {
               <span className="font-bold">Firm Name:</span> Innovative IT
             </p>
             <p>
-              <span className="font-bold">Duration:</span> 8 months
+              <span className="font-bold">Duration:</span> 12 months
             </p>
             <p>
               <span className="font-bold">Experience:</span> Innovative IT has
