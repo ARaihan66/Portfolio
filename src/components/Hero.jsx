@@ -16,8 +16,8 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video> */}
 
-      <div className="flex flex-col justify-between items-center gap-5 md:flex-row  bg-opacity-50 p-2 md:p-10">
-        <div className="mx-3 basis-1/2 md:mx-20">
+      <div className="flex flex-col justify-between items-center gap-5 md:flex-row  bg-opacity-50 ">
+        <div className="mx-2 basis-1/2 md:mx-20">
           <motion.h1
             initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 10 }}

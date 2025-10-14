@@ -16,8 +16,8 @@ const Skills = () => {
           <h2 className="uppercase text-center my-5 md:my-10  text-white">
             Skills
           </h2>
-          {/* <div className="flex flex-col gap-3 justify-center items-center text-white">
-            <div className="flex gap-10">
+          <div className="flex flex-col gap-3 justify-center items-center text-white">
+            <div className="flex flex-col md:flex-row gap-10">
               <motion.div
                 initial={{ opacity: 0, y: 0 }}
                 animate={{ opacity: 1, y: 5 }}
@@ -55,7 +55,7 @@ const Skills = () => {
                 <h3>FIGMA</h3>
               </motion.div>
             </div>
-            <div className="flex gap-10 my-5">
+            <div className="flex flex-col md:flex-row gap-10 my-5">
               <motion.div
                 initial={{ opacity: 0, y: 0 }}
                 animate={{ opacity: 1, y: -5 }}
@@ -93,7 +93,7 @@ const Skills = () => {
                 <h3>MongoDB</h3>
               </motion.div>
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="basis-1/2">
           <motion.h2

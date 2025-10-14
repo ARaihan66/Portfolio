@@ -88,7 +88,7 @@ const Project = () => {
     },
   ];
   return (
-    <section id="projects">
+    <section id="projects" className="md:mx-16">
       <h2 className="uppercase text-center my-5 md:my-10  text-white">
         Projects
       </h2>

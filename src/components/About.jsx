@@ -31,7 +31,7 @@ const About = () => {
     },
   };
   return (
-    <section id="about">
+    <section id="about" className="md:mx-8">
       <motion.h1
         initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: -10 }}
