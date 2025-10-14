@@ -9,7 +9,7 @@ const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", 
+      behavior: "smooth",
     });
   };
 
@@ -21,8 +21,10 @@ const Navbar = () => {
             href="/"
             className="text-3xl text-white no-underline font-extrabold ml-5"
           >
-
-            <img src={Logo} className="h-[50px] w-[100] md:h-[50px] md:w-[200px]"/>
+            <img
+              src={Logo}
+              className="h-[50px] w-[100] md:h-[50px] md:w-[200px]"
+            />
           </a>
         </h1>
         {menuItem ? (
@@ -74,14 +76,25 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div>
-          <a
-            href="https://github.com/ARaihan66"
-            target="_blank"
-            className=" hidden md:block text-l font-bold no-underline text-white bg-orange-900 rounded-lg p-5 outline-none hover:bg-white hover:text-orange-700"
-          >
-            Github Link
-          </a>
+        <div className="flex gap-x-5">
+          <div>
+            <a
+              href="https://github.com/ARaihan66"
+              target="_blank"
+              className=" hidden md:block text-l font-bold no-underline text-white bg-orange-900 rounded-lg px-4 py-2 outline-none hover:bg-white hover:text-orange-700"
+            >
+              Github
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/aburaihan066/"
+              target="_blank"
+              className=" hidden md:block text-l font-bold no-underline text-white bg-orange-900 rounded-lg px-4 py-2 outline-none hover:bg-white hover:text-orange-700"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
 
         {menuItem && (

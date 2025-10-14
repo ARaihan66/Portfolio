@@ -1,5 +1,5 @@
 import shakil from "../assets/Raihan.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Abu_Raihan_(Resume).pdf";
 import backgroundVideo from "../assets/bgVideo.mp4";
 
 const Hero = () => {
@@ -20,10 +20,28 @@ const Hero = () => {
           <h1 className="text-white font-extrabold text-3xl my-5">
             Hi, I am Abu Raihan
           </h1>
-          <p className="text-white font-bold text-l">
-            I am a full-stack web developer with 2 years of experience in
-            ReactJS, ExpressJS, and MongoDB. I have worked on several
-            production-level projects.
+          <p className="text-white font-bold text-justify">
+            I am a creative Frontend Web Developer with over 2 years of hands-on
+            experience in building modern, responsive, and efficient web
+            applications. My technical expertise includes React.js, Next.js,
+            Tailwind CSS, React Router, Redux Toolkit, RTK Query, and Material
+            UI. I have contributed to several production-level projects,
+            showcasing my ability to deliver clean, maintainable, and scalable
+            code. Currently, I am working at Al Fatah Group (July 2024 –
+            Present), where my primary responsibility is to develop a new ERP
+            (Enterprise Resource Planning) system for the organization. The
+            application utilizes React.js, Tailwind CSS, and Material UI on the
+            frontend, with a .NET Core backend and SQL Server database. As a
+            Frontend Developer, I focus on creating user-friendly interfaces,
+            managing state efficiently, and integrating APIs to ensure seamless
+            communication between the frontend and backend. In addition, I
+            provide technical support and maintenance for the company’s legacy
+            system, which is built using ASP.NET Web Forms. Previously, I worked
+            at Innovative IT (January 2023 – December 2023), where I contributed
+            to multiple projects such as G-Spa, AfterHoursBD, and Fare.com.bd.
+            During this period, I gained valuable experience in React
+            development, UI design, and project collaboration, working closely
+            with team members to deliver high-quality software solutions.
           </p>
           <div className="my-10 flex md:justify-between gap-10">
             <a
@@ -41,11 +59,11 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="basis-1/2 flex flex-col items-center ralative">
+        <div className="basis-1/2 flex flex-col items-center">
           <img
             src={shakil}
             alt="Abu Raihan Shakil"
-            className="absolute rounded-full mb-5 h-[300px] w-[300px] md:h-[400px] md:w-[400px] object-cover border-4 border-white"
+            className=" rounded-full mb-5 h-[300px] w-[300px] md:h-[400px] md:w-[400px] object-cover border-4 border-white"
           />
         </div>
       </div>
