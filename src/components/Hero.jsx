@@ -38,7 +38,7 @@ const Hero = () => {
             Tailwind CSS, React Router, Redux Toolkit, RTK Query, and Material
             UI. I have contributed to several production-level projects,
             showcasing my ability to deliver clean, maintainable, and scalable
-            code. Currently, I am working at Al Fatah Group (July 2024 –
+            code. Currently, I am working at Al Fatah Group (Jan 2024 –
             Present), where my primary responsibility is to develop a new ERP
             (Enterprise Resource Planning) system for the organization. The
             application utilizes React.js, Tailwind CSS, and Material UI on the

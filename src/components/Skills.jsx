@@ -118,7 +118,7 @@ const Skills = () => {
             </p>
             <p>
               <span className="font-bold">Experience:</span> I am currently
-              working as a Frontend Developer at Al Fatah Group (July 2024 –
+              working as a Frontend Developer at Al Fatah Group (Jan 2024 –
               Present), where I am responsible for developing a new ERP
               (Enterprise Resource Planning) system for the organization. The
               technology stack includes React.js, Tailwind CSS, and Material UI

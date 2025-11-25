@@ -55,7 +55,7 @@ const About = () => {
         Toolkit, RTK Query, and Material UI. I have worked on several
         production-level projects that demonstrate my ability to build scalable,
         responsive, and visually appealing web applications.Currently, I am
-        working as a Frontend Developer at Al Fatah Group (July 2024 – Present).
+        working as a Frontend Developer at Al Fatah Group (Jan 2024 – Present).
         My primary responsibility is developing a new ERP (Enterprise Resource
         Planning) system for the organization. The application stack includes
         React.js, Tailwind CSS, and Material UI on the frontend, .NET Core on
@@ -94,7 +94,7 @@ const About = () => {
             <h2>Creative Frontend Development</h2>
             <p className="p-5 text-justify">
               I am currently working as a Frontend Developer at Al Fatah Group
-              (July 2024 – Present), where I am responsible for developing a new
+              (Jan 2024 – Present), where I am responsible for developing a new
               ERP (Enterprise Resource Planning) system for the organization.
               The technology stack includes React.js, Tailwind CSS, and Material
               UI on the frontend, .NET Core on the backend, and SQL Server as
